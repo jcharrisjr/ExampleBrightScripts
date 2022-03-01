@@ -2,8 +2,8 @@
 
 ################################################################################################
 #
-# **IMPORTANT** - Requires Bright Organiztional or Personal API Key
-# Before use, export your Bright Organiztional or Personal API Key from the command line
+# **IMPORTANT** - Requires Bright Organizational or Personal API Key
+# Before use, export your Bright Organizational or Personal API Key from the command line
 # > export BRIGHT_API=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 # 
 # Usage: ./Harvest_Issues_by_ScanID.py [BRIGHT SCAN ID]
