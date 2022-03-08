@@ -6,7 +6,7 @@
 # Before use, export your Bright Organiztional or Personal API Key from the command line
 # > export BRIGHT_API=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 # 
-# Usage: ./Harvest_Issues_by_ProjectID_wBearerToken.pyy [BRIGHT PROJECT ID]
+# Usage: ./Harvest_Issues_by_ProjectID_wBearerToken.py [BRIGHT PROJECT ID]
 #
 # - jharris 28FEB2022
 #
@@ -64,7 +64,7 @@ def getIssues (inBearer):
 
 print("-------")
 myBearerToken = getBearerToken(myUsername, myPassword)
-# print(myBearerToken)
+print(myBearerToken)
 print("Attempting to harvest issues from scan ID: " + myProjectID + " ...")
 thisJSONReturn = getIssues(myBearerToken)
 print("Writing results to file: issues.json")
