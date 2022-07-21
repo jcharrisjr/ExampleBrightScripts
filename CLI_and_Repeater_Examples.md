@@ -12,7 +12,7 @@ There are a few different ways to install them on a local asset:
 
     `sudo npm install -g @neuralegion/nexploit-cli --unsafe-perm=true`
     
-    `nexploit-cli repeater --id g31NbaebCRsHdMH3J3gifX --token $BRIGHT_API`
+    `nexploit-cli repeater --id [Repeater ID from UI] --token $BRIGHT_API_KEY`
     
  - Docker container
 
@@ -20,19 +20,19 @@ There are a few different ways to install them on a local asset:
     
     `docker pull neuralegion/repeater`
     
-    `sudo docker run -it neuralegion/repeater repeater --id g31NbaebCRsHdMH3J3gifX --token $BRIGHT_API`
+    `sudo docker run -it neuralegion/repeater repeater --id [Repeater ID from UI] --token $BRIGHT_API_KEY`
     
  - Download, install, and run the precompiled binary executable
 
     https://github.com/NeuraLegion/nexploit-cli/releases/latest
 
-    `nexploit-cli repeater --id g31NbaebCRsHdMH3J3gifX --token $BRIGHT_API`
+    `nexploit-cli repeater --id g31NbaebCRsHdMH3J3gifX --token $BRIGHT_API_KEY`
     
 ## Running Integration from CLI
 
 Integrations for local ticketing systems can traffic communication through the repeater.
 
-    nexploit-cli integration --access-key $JIRA_ACCESS_KEY --base-url http://192.168.68.222:8080/ --user jharris --password Jira_123 --token $BRIGHT_API
+    nexploit-cli integration --access-key $JIRA_ACCESS_KEY --base-url http://192.168.68.222:8080/ --user jharris --password Jira_123 --token $BRIGHT_API_KEY
 
 ##  Example Running Scan from CLI
 
