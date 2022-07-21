@@ -26,7 +26,7 @@ There are a few different ways to install them on a local asset:
 
     https://github.com/NeuraLegion/nexploit-cli/releases/latest
 
-    `nexploit-cli repeater --id g31NbaebCRsHdMH3J3gifX --token $BRIGHT_API_KEY`
+    `nexploit-cli repeater --id [Repeater ID from UI] --token $BRIGHT_API_KEY`
     
 ## Running Integration from CLI
 
